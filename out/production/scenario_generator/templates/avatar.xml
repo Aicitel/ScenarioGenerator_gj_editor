@@ -1,0 +1,11 @@
+<TrackGroup type="GROUP_CHAR" name="avatar" enabled="1" collapse="0" follow_switch="1">
+    <Entity avatar="avatar\mjh507_100_f000_h507.avatar" voice_idx="0" is_dummy="0" cloth="0" lookat_visible="0" clamp_toground="0" zone_update="0" self_shadow="0" dynamic="1" custom_model="0" />
+    <Track type="TRACK_MOVE" name="位移_1" enabled="1">
+        <KeyFrame frame="0" enabled="1">
+            <KeyFrameInfo no_interpo="0" parent_mtrl="1" use_path="0" use_motion="0" motion_frame="0" move_ground="0" use_physics="0" rot_dir="7" shield="">
+                <EyeNode pos="75229.27,-50443.13,-434.24" ori="0.00,0.00,0.00" scale="2.000,2.000,2.000" local_pos="0.00,0.00,0.00" local_ori="0.00,0.00,0.00" local_scale="1.000,1.000,1.000" scalexyz="0" pos_in="75229.27,-50443.13,-434.24" pos_out="75229.27,-50443.13,-434.24" pos_time_in="0.00,0.00,0.00" pos_time_out="0.00,0.00,0.00" interpms="CUBIC,CUBIC,CUBIC" tangentms="AUTO,AUTO,AUTO" rot_interpms="LINEAR,LINEAR,LINEAR" />
+            </KeyFrameInfo>
+        </KeyFrame>
+    </Track>
+    <Track type="TRACK_ANIM" name="动作_1" enabled="1" />
+</TrackGroup>

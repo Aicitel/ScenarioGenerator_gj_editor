@@ -1,0 +1,16 @@
+<TrackGroup type="GROUP_LIGHT" name="光源_2" enabled="1" collapse="0" follow_switch="1">
+    <Entity type="0" use_spec="0" light_shadow="0" mult_char_enable="0" mask_path="" atten_type="1" anim_type="0" anim_range="0" anim_interval="0" has_vl="1" vl_step="8" vl_is_box="0" />
+    <Track type="TRACK_MOVE" name="位移_106" enabled="1">
+        <KeyFrame frame="0" enabled="1">
+            <KeyFrameInfo no_interpo="0" parent_mtrl="1" use_path="0" use_motion="0" motion_frame="0" move_ground="0" use_physics="0" rot_dir="7" shield="">
+                <EyeNode pos="69503.66,-40244.50,-422.55" ori="0.00,-0.00,0.00" scale="1.000,1.000,1.000" local_pos="0.00,0.00,0.00" local_ori="0.00,0.00,0.00" local_scale="1.000,1.000,1.000" scalexyz="0" pos_in="69503.66,-40244.50,-422.55" pos_out="69503.66,-40244.50,-422.55" pos_time_in="0.00,0.00,0.00" pos_time_out="0.00,0.00,0.00" interpms="CUBIC,CUBIC,CUBIC" tangentms="AUTO,AUTO,AUTO" rot_interpms="LINEAR,LINEAR,LINEAR" />
+            </KeyFrameInfo>
+        </KeyFrame>
+    </Track>
+    <Track type="TRACK_VIS" name="显示_2" enabled="1" />
+    <Track type="TRACK_LIGHT_PROPERTY" name="灯光属性_2" enabled="1">
+        <KeyFrame frame="1" enabled="1">
+            <KeyFrameInfo no_interpo="0" light_color="219,171,109,0" light_angle="45" light_radius="300.5" light_multiplier="6.3" light_multiplier_char="6.3" vl_intensity="40" vl_scatter="5" vl_dist="3910" vl_smoke="20" vl_boxsize="1.000,1.000,1.000" />
+        </KeyFrame>
+    </Track>
+</TrackGroup>

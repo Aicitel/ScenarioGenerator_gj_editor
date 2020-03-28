@@ -1,0 +1,8 @@
+<CutScene>
+    <BaseInfo name="CutScene" scene_name="m34" csc_lazy_load="1" enable_snow="1" total_frame="0" total_time="0" />
+    <DirectorGroup type="GROUP_DIRECTOR" name="导演轴" enabled="1" collapse="0" follow_switch="1">
+        <Entity dof_manage="1" />
+        <Track type="TRACK_DIRECTOR" name="Director" enabled="1" />
+    </DirectorGroup>
+
+</CutScene>
