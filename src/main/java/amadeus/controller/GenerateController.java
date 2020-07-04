@@ -38,7 +38,7 @@ public class GenerateController {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
         Document root = builder.parse(file.getInputStream());
-        Document lightXml = builder.parse("src/main/resources/templates/light.xml");
+//        Document lightXml = builder.parse("src/main/resources/templates/light.xml");
 //        XmlGenerator xmlGenerator = new XmlGenerator(false,
 //                targetAvatarName, Arrays.asList(lineDistance, columnDistance),
 //                lineCount, columnCount, random);
@@ -47,7 +47,7 @@ public class GenerateController {
                 lineCount, columnCount, random);
         xmlGenerator.init(root.getDocumentElement());
         OutputStream outputStream = response.getOutputStream();
-        xmlGenerator.generateXml(root.getDocumentElement(), lightXml.getDocumentElement(),
+        xmlGenerator.generateXml(root.getDocumentElement(), null,
                 outputStream, null);
         outputStream.flush();
         outputStream.close();
