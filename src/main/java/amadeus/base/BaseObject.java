@@ -1,5 +1,6 @@
 package amadeus.base;
 
+import amadeus.exception.MoveTrackNotFoundException;
 import org.w3c.dom.*;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
@@ -27,6 +28,9 @@ public class BaseObject {
     public BaseObject(Element element){
         this.element = element;
         this.moveAxis = this.getTargetTypeElement(MOVE_AXIS_TYPE);
+        if(this.moveAxis == null){
+            throw new MoveTrackNotFoundException("Element move axis not found");
+        }
     }
 
     protected Element getTargetElement(String tag){
@@ -91,7 +95,7 @@ public class BaseObject {
         initPos.setAttribute(ORI_KEY, this.generateOriString(x,y,z));
     }
 
-    public List<Double> getInitOri(double x, double y, double z){
+    public List<Double> getInitOri(){
         Element initPos = this.getInitTrackFrameInner();
         return Arrays.stream(initPos.getAttribute(ORI_KEY).split(","))
                 .map(Double::valueOf).collect(Collectors.toList());

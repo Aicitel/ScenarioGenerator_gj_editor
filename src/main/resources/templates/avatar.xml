@@ -1,5 +1,5 @@
 <TrackGroup type="GROUP_CHAR" name="avatar" enabled="1" collapse="0" follow_switch="1">
-    <Entity avatar="avatar\mjh507_100_f000_h507.avatar" voice_idx="0" is_dummy="0" cloth="0" lookat_visible="0" clamp_toground="0" zone_update="0" self_shadow="0" dynamic="1" custom_model="0" />
+    <Entity avatar="models\gear\gear_121.model" voice_idx="0" is_dummy="0" cloth="0" lookat_visible="0" clamp_toground="0" zone_update="0" self_shadow="0" dynamic="1" custom_model="0" />
     <Track type="TRACK_MOVE" name="位移_1" enabled="1">
         <KeyFrame frame="0" enabled="1">
             <KeyFrameInfo no_interpo="0" parent_mtrl="1" use_path="0" use_motion="0" motion_frame="0" move_ground="0" use_physics="0" rot_dir="7" shield="">
