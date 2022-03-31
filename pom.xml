@@ -10,7 +10,7 @@
 
     <properties>
         <spring.boot.mainclass>amadeus.Application</spring.boot.mainclass>
-        <spring.boot.version>2.0.4.RELEASE</spring.boot.version>
+        <spring.boot.version>2.5.12</spring.boot.version>
     </properties>
 
     <dependencies>
